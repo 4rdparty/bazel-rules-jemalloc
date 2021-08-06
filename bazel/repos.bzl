@@ -25,7 +25,7 @@ def repos(external = True, repo_mapping = {}):
         http_archive(
             name = "com_github_4rdparty_bazel_rules_jemalloc",
             url = "https://github.com/4rdparty/bazel-rules-jemalloc/archive/jemalloc-5.2.1.tar.gz",            
-            sha256 = "C8916383EFEEB0BE74D5442598E77DD3A39A4016781603AEFC013F1DF3DF3E9F",
+            sha256 = "c8916383efeeb0be74d5442598e77dd3a39a4016781603aefc013f1df3df3e9f",
             strip_prefix = "bazel-rules-jemalloc-jemalloc-5.2.1",
             repo_mapping = repo_mapping,
         )
