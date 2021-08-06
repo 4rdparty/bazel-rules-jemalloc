@@ -24,8 +24,8 @@ def repos(external = True, repo_mapping = {}):
     if external and "com_github_4rdparty_bazel_rules_jemalloc" not in native.existing_rules():
         http_archive(
             name = "com_github_4rdparty_bazel_rules_jemalloc",
-            url = "https://github.com/4rdparty/bazel-rules-jemalloc/archive/jemalloc-5.2.1.tar.gz",
-            sha256 = "ed51b0b37098af4ca6ed31c22324635263f8ad6471889e0592a9c0dba9136aea",
+            url = "https://github.com/4rdparty/bazel-rules-jemalloc/archive/jemalloc-5.2.1.tar.gz",            
+            sha256 = "C8916383EFEEB0BE74D5442598E77DD3A39A4016781603AEFC013F1DF3DF3E9F",
             strip_prefix = "bazel-rules-jemalloc-jemalloc-5.2.1",
             repo_mapping = repo_mapping,
         )
